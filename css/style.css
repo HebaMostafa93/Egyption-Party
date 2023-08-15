@@ -1,0 +1,121 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------------Home------------ */
+#home {
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) , url(../images/download.jpg);
+    background-size: cover;
+    background-position: center center; 
+}
+.home-content h1{
+    font-size: 3.5rem;
+}
+/* -------------Sidebar---------------- */
+.sidebar{
+    height: 100vh;
+    position: fixed;
+    /* width: 0 ; */
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+.innerBox{
+	height: 100%;
+    padding: 1rem;
+    background-color: #111; 
+}
+.innerBox a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin-right: 60px;
+    transition: all 0.5s;
+}
+.innerBox a:hover{
+    color: rgba(214, 46, 51 , 0.4)
+}
+.openBtn{
+	height: fit-content;
+    background-color: transparent;
+    padding-left: 1rem;
+    cursor: pointer;
+    display: flex;
+}
+.openBtn span , .openBtn i {
+    font-size: 1.6rem;
+}
+
+/* -------------SlideDown---------------- */
+#sliderDown h3 {
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: #fff;
+}
+#sliderDown .item{
+    background-color: #ccc;
+    display:none
+}
+#sliderDown .first {
+    display: block;
+}
+
+/* ----------Counter------------- */
+#counter{
+    background-image:linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) , url(../images/invitation.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.timer{
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+/* -------------Contact Us--------------- */
+#contact-us h2 {
+    color: #444;
+}
+#contact-us p {
+    color: #777;
+}
+.red{
+    color: #D62E33;
+}
+.social-list i {
+    color: #777;
+    width: 40px;
+    height: 40px;
+    padding: 0.7rem;
+    margin-right: 0.5rem;
+    border: 1px solid #999;
+    transition: all 0.5s;
+}
+.social-list i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border-color: #D62E33;
+}
+input , textarea {
+    border-radius: 0 !important;
+    margin-bottom: 1.3rem;
+}
+input::placeholder , textarea::placeholder {
+    font-size: 0.9rem;
+}
+#chars {
+    font-size: larger;
+}
+form .btn , form .btn:hover {
+    display: block;
+    background-color: #D62E33;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+
+
